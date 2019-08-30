@@ -1,0 +1,8 @@
+.nav-progress-bar {
+  height: 3px;width: 0%;
+  opacity: 0;visibility: hidden;
+  background: linear-gradient(to right, orange , red);
+  position:fixed;top: 0;left: 0;
+  z-index: 1000;
+  transition: width 1s;
+}
